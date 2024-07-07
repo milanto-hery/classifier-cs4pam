@@ -21,8 +21,7 @@ def main():
     solver = 'lasso'
     weights_folder = './Weights_CS/Weights_15'
     saved_prediction = 'Prediction_cs_15'
-    saved_segments = 'Segments'
     extension = 'audio_wav'
-    run_cs_prediction(species_folder, extension, weights_folder, saved_segments, saved_prediction, compression_rate, solver, threads, batch_size)
+    run_cs_prediction(species_folder, extension, weights_folder, saved_prediction, compression_rate, solver, threads, batch_size)
 if __name__ == "__main__":
     main()
