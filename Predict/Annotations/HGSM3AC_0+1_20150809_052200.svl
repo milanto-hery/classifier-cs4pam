@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="13" name="" sampleRate="8000" start="45653" end="31825173" type="sparse" dimensions="2" resolution="1" notifyOnAdd="true" dataset="12" subtype="box" minimum="1118.75" maximum="1703.91" units="Hz"/>
+    <dataset id="12" dimensions="2">
+      <point frame="45653" value="1268.39" duration="37973" extent="405.863" label="gibbon"/>
+      <point frame="184746" value="1410.2" duration="26026" extent="264.055" label="gibbon"/>
+      <point frame="225280" value="1221.13" duration="56746" extent="454.762" label="gibbon"/>
+      <point frame="416000" value="1245.58" duration="47786" extent="430.313" label="gibbon"/>
+      <point frame="582400" value="1274.91" duration="43093" extent="365.114" label="gibbon"/>
+      <point frame="720213" value="1271.65" duration="30293" extent="409.123" label="gibbon"/>
+      <point frame="784640" value="1230.91" duration="48640" extent="441.722" label="gibbon"/>
+      <point frame="934826" value="1223.06" duration="42666" extent="448.242" label="gibbon"/>
+      <point frame="1057706" value="1188.84" duration="44800" extent="490.621" label="gibbon"/>
+      <point frame="1178026" value="1164.39" duration="27733" extent="539.521" label="gibbon"/>
+      <point frame="1220693" value="1162.76" duration="62293" extent="537.891" label="gibbon"/>
+      <point frame="1413120" value="1195.36" duration="37120" extent="480.842" label="gibbon"/>
+      <point frame="1570986" value="1237.73" duration="44800" extent="436.832" label="gibbon"/>
+      <point frame="1679786" value="1236.1" duration="30720" extent="443.352" label="gibbon"/>
+      <point frame="1773653" value="1192.1" duration="40533" extent="462.912" label="gibbon"/>
+      <point frame="1888000" value="1227.95" duration="30293" extent="430.313" label="gibbon"/>
+      <point frame="1928960" value="1167.65" duration="58026" extent="488.991" label="gibbon"/>
+      <point frame="2080000" value="1125.27" duration="46933" extent="524.851" label="gibbon"/>
+      <point frame="2210986" value="1126.9" duration="52906" extent="531.371" label="gibbon"/>
+      <point frame="2347093" value="1174.17" duration="28160" extent="503.661" label="gibbon"/>
+      <point frame="2392746" value="1167.65" duration="62293" extent="488.991" label="gibbon"/>
+      <point frame="2570240" value="1180.69" duration="52906" extent="464.542" label="gibbon"/>
+      <point frame="2706346" value="1195.36" duration="50773" extent="438.462" label="gibbon"/>
+      <point frame="2857386" value="1170.91" duration="58453" extent="471.062" label="gibbon"/>
+      <point frame="3016106" value="1236.1" duration="32853" extent="407.493" label="gibbon"/>
+      <point frame="3067306" value="1159.5" duration="60160" extent="488.991" label="gibbon"/>
+      <point frame="3240533" value="1208.39" duration="50773" extent="430.313" label="gibbon"/>
+      <point frame="3385173" value="1152.98" duration="55466" extent="453.132" label="gibbon"/>
+      <point frame="3539200" value="1182.32" duration="49493" extent="436.832" label="gibbon"/>
+      <point frame="3678293" value="1180.69" duration="49920" extent="458.022" label="gibbon"/>
+      <point frame="3823786" value="1218.17" duration="27733" extent="400.973" label="gibbon"/>
+      <point frame="3875840" value="1157.87" duration="62720" extent="459.652" label="gibbon"/>
+      <point frame="4068266" value="1193.73" duration="53760" extent="440.092" label="gibbon"/>
+      <point frame="4218880" value="1148.09" duration="37973" extent="480.842" label="gibbon"/>
+      <point frame="4409173" value="1146.46" duration="54186" extent="475.952" label="gibbon"/>
+      <point frame="4541866" value="1200.24" duration="34986" extent="461.282" label="gibbon"/>
+      <point frame="4659626" value="1172.54" duration="27733" extent="459.652" label="gibbon"/>
+      <point frame="4724906" value="1118.75" duration="48640" extent="539.521" label="gibbon"/>
+      <point frame="4959573" value="1203.51" duration="46933" extent="415.643" label="gibbon"/>
+      <point frame="5182293" value="1177.43" duration="51626" extent="458.022" label="gibbon"/>
+      <point frame="5333760" value="1210.02" duration="59733" extent="415.643" label="gibbon"/>
+      <point frame="5480960" value="1234.47" duration="29440" extent="402.603" label="gibbon"/>
+      <point frame="5539413" value="1198.62" duration="52053" extent="436.832" label="gibbon"/>
+      <point frame="6092053" value="1282.33" duration="197120" extent="151.293" label="no-gibbon"/>
+      <point frame="7300906" value="1331.36" duration="202346" extent="124.677" label="no-gibbon"/>
+      <point frame="7730986" value="1391.59" duration="255360" extent="98.0603" label="no-gibbon"/>
+      <point frame="8989866" value="1397.2" duration="232960" extent="82.6508" label="no-gibbon"/>
+      <point frame="9694720" value="1366.38" duration="187413" extent="138.685" label="no-gibbon"/>
+      <point frame="10552640" value="1341.16" duration="181440" extent="124.677" label="no-gibbon"/>
+      <point frame="10950613" value="1317.35" duration="268053" extent="141.487" label="no-gibbon"/>
+      <point frame="11739840" value="1339.76" duration="221760" extent="105.065" label="no-gibbon"/>
+      <point frame="13196586" value="1360.78" duration="153813" extent="72.8449" label="no-gibbon"/>
+      <point frame="15286506" value="1335.56" duration="329280" extent="109.267" label="no-gibbon"/>
+      <point frame="17695253" value="1477.05" duration="551786" extent="147.091" label="no-gibbon"/>
+      <point frame="18833173" value="1535.88" duration="440533" extent="103.664" label="no-gibbon"/>
+      <point frame="19742613" value="1285.13" duration="327040" extent="169.504" label="no-gibbon"/>
+      <point frame="22071466" value="1387.39" duration="359893" extent="114.871" label="no-gibbon"/>
+      <point frame="24492160" value="1350.97" duration="304640" extent="135.884" label="no-gibbon"/>
+      <point frame="24967040" value="1355.17" duration="323306" extent="114.871" label="no-gibbon"/>
+      <point frame="26835946" value="1356.57" duration="302400" extent="147.091" label="no-gibbon"/>
+      <point frame="27827520" value="1325.75" duration="408426" extent="222.737" label="no-gibbon"/>
+      <point frame="28859413" value="1320.15" duration="387520" extent="170.905" label="no-gibbon"/>
+      <point frame="29727040" value="1299.14" duration="297920" extent="184.914" label="no-gibbon"/>
+      <point frame="31592213" value="1311.75" duration="232960" extent="161.099" label="no-gibbon"/>
+    </dataset>
+  </data>
+  <layer id="14" type="boxes" name="Boxes" model="13" verticalScale="0" colourName="White" colour="#ffffff" darkBackground="true"/>
+</sv>

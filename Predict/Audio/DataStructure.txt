@@ -1,0 +1,15 @@
+#Putttt here all audio to predict (.wav)
+#Exemples for 10 testing files used for Gibbon in this project:
+
+HGSM3AC_0+1_20150616_050750.wav
+HGSM3AC_0+1_20150618_050600.wav
+HGSM3AC_0+1_20150622_050600.av
+HGSM3AC_0+1_20150719_051500.wav
+HGSM3AC_0+1_20150803_075153.wav
+HGSM3AC_0+1_20150809_052200.wav
+HGSM3AC_0+1_20150810_052200.wav
+HGSM3B_0+1_20160329_054000.wav
+HGSM3SOL_0+1_20160305_060000.wav
+HGSM3SOL_0+1_20160307_055800.wav
+
+# All data is publicly available here: https://zenodo.org/records/3991714

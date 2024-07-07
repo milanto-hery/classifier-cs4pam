@@ -1,0 +1,36 @@
+{
+  "thyolo_params": {
+
+    "call_order" : ["noise", "thyolo-alethe"],
+    "absence_class_label" : "noise",
+    "seed" : 42,
+    "train_size" : 0.8,
+    "verbose" : "True",
+    "batch_size" : 128, 
+    "epochs" :10,
+    "original" : "original",
+    "cs" : "CS",
+    "jpeg" : "JPEG",
+    "mp3" : "MP3",
+    "flac" : "FLAC",
+    "ogg" : "OGG",
+    "aac" : "AAC"
+  },
+  "gibbon_params": {
+
+    "call_order" : ["no-gibbon", "gibbon"],
+    "absence_class_label" : "no-gibbon",
+    "seed" : 42,
+    "train_size" : 0.8,
+    "verbose" : "True",
+    "batch_size" : 128, 
+    "epochs" :10,
+    "original" : "original",
+    "cs" : "CS",
+    "jpeg" : "JPEG",
+    "mp3" : "MP3",
+    "flac" : "FLAC",
+    "ogg" : "OGG",
+    "aac" : "AAC"
+  }
+}

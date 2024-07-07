@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="13" name="" sampleRate="8000" start="71680" end="5324800" type="sparse" dimensions="2" resolution="1" notifyOnAdd="true" dataset="12" subtype="box" minimum="1118.75" maximum="1619.15" units="Hz"/>
+    <dataset id="12" dimensions="2">
+      <point frame="71680" value="1187.21" duration="48213" extent="363.484" label="gibbon"/>
+      <point frame="207786" value="1183.95" duration="49920" extent="371.634" label="gibbon"/>
+      <point frame="373333" value="1198.62" duration="49066" extent="356.964" label="gibbon"/>
+      <point frame="538453" value="1195.36" duration="44800" extent="355.334" label="gibbon"/>
+      <point frame="689920" value="1214.91" duration="49493" extent="345.554" label="gibbon"/>
+      <point frame="853760" value="1185.58" duration="43520" extent="363.484" label="gibbon"/>
+      <point frame="984320" value="1174.17" duration="59306" extent="402.603" label="gibbon"/>
+      <point frame="1140906" value="1187.21" duration="58880" extent="378.153" label="gibbon"/>
+      <point frame="1290240" value="1170.91" duration="57173" extent="418.903" label="gibbon"/>
+      <point frame="1434026" value="1149.72" duration="54613" extent="425.423" label="gibbon"/>
+      <point frame="1568853" value="1167.65" duration="50346" extent="405.863" label="gibbon"/>
+      <point frame="1710506" value="1172.54" duration="59733" extent="396.083" label="gibbon"/>
+      <point frame="1869653" value="1141.57" duration="62293" extent="433.573" label="gibbon"/>
+      <point frame="2020693" value="1146.46" duration="62293" extent="427.053" label="gibbon"/>
+      <point frame="2179413" value="1154.61" duration="60586" extent="428.682" label="gibbon"/>
+      <point frame="2343253" value="1141.57" duration="56320" extent="431.943" label="gibbon"/>
+      <point frame="2499840" value="1144.83" duration="56746" extent="446.612" label="gibbon"/>
+      <point frame="2648320" value="1154.61" duration="60160" extent="422.163" label="gibbon"/>
+      <point frame="2812586" value="1135.05" duration="54186" extent="454.762" label="gibbon"/>
+      <point frame="2967466" value="1157.87" duration="60160" extent="438.462" label="gibbon"/>
+      <point frame="3121066" value="1164.39" duration="61866" extent="430.312" label="gibbon"/>
+      <point frame="3304533" value="1164.39" duration="57173" extent="448.242" label="gibbon"/>
+      <point frame="3472213" value="1131.79" duration="57600" extent="453.132" label="gibbon"/>
+      <point frame="3698346" value="1172.54" duration="55893" extent="446.612" label="gibbon"/>
+      <point frame="3881813" value="1177.43" duration="55040" extent="427.053" label="gibbon"/>
+      <point frame="4035413" value="1157.87" duration="55893" extent="444.982" label="gibbon"/>
+      <point frame="4179200" value="1314.96" duration="14720" extent="196.422" label="gibbon"/>
+      <point frame="4215040" value="1138.31" duration="48640" extent="472.692" label="gibbon"/>
+      <point frame="4356800" value="1305.6" duration="11520" extent="222.144" label="gibbon"/>
+      <point frame="4409173" value="1151.35" duration="52053" extent="448.242" label="gibbon"/>
+      <point frame="4507520" value="1282.22" duration="17280" extent="130.948" label="gibbon"/>
+      <point frame="4545280" value="1265.85" duration="20800" extent="222.144" label="gibbon"/>
+      <point frame="4590933" value="1139.94" duration="50773" extent="474.322" label="gibbon"/>
+      <point frame="4748800" value="1138.31" duration="66133" extent="459.652" label="gibbon"/>
+      <point frame="4901973" value="1118.75" duration="55040" extent="488.991" label="gibbon"/>
+      <point frame="5095680" value="1144.83" duration="49920" extent="423.793" label="gibbon"/>
+      <point frame="5273600" value="1144.83" duration="51200" extent="435.202" label="gibbon"/>
+    </dataset>
+  </data>
+  <layer id="14" type="boxes" name="Boxes" model="13" verticalScale="0" colourName="White" colour="#ffffff" darkBackground="true"/>
+</sv>

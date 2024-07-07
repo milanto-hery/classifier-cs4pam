@@ -1,0 +1,45 @@
+{"thyolo_alethe": {
+
+    "segment_duration" : 1,
+    "positive_class" : "[\"thyolo-alethe\"]",
+    "negative_class" : "[\"noise\"]",
+    "file_type" : "svl",
+    "audio_extension" : ".WAV",
+    "n_fft" : 1024,
+    "hop_length" : 320,
+    "n_mels" : 128 ,
+    "f_min" : 800,
+    "f_max" : 4000,
+    "original" : "original",
+    "cs" : "CS",
+    "jpeg" : "JPEG",
+    "mp3" : "MP3",
+    "flac" : "FLAC",
+    "ogg" : "OGG",
+    "aac" : "AAC"
+  },
+  "hainan_gibbon": {
+
+    "segment_duration" : 4,
+    "positive_class" : "[\"gibbon\"]" ,
+    "negative_class" : "[\"no-gibbon\"]" ,
+    "file_type" : "svl",
+    "audio_wav" : ".wav",
+    "audio_mp3" : ".mp3",
+    "audio_flac" : ".flac",
+    "audio_ogg" : ".ogg",
+    "audio_aac" : ".aac",
+    "n_fft" : 2048,
+    "hop_length" : 256,
+    "n_mels" : 128 ,
+    "f_min" : 2600,
+    "f_max" : 8600,
+    "original" : "original",
+    "cs" : "CS",
+    "jpeg" : "JPEG", 
+    "mp3" : "MP3",
+    "flac" : "FLAC",
+    "ogg" : "OGG",
+    "aac" : "AAC"
+  }
+}
