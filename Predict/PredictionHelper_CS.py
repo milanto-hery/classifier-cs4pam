@@ -1,15 +1,12 @@
 from xml.dom import minidom
-import math
 import pandas as pd
 import glob, os
 import librosa.display
 import librosa
 import numpy as np
-from scipy import signal
-from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import load_model
 import gc
-import datetime
+import time
 import concurrent.futures
 import pickle
 from CS import *
@@ -35,7 +32,6 @@ class PredictionHelper_CS:
         self.n_mels = n_mels
         self.f_min = f_min
         self.f_max = f_max
-        #self.weights_name = weights_name
         self.compression_rate = compression_rate
         self.solver = solver
         self.saved_weights_folder = saved_weights_folder
@@ -232,7 +228,7 @@ class PredictionHelper_CS:
 
         return result
 
-    def predict_all_test_files(self, verbose, weights_folder, saved_segments, saved_prediction, threads, batch_size):
+    def predict_all_test_files(self, verbose, weights_folder, saved_prediction, threads, batch_size):
         '''
         Create X and Y values which are inputs to a ML algorithm.
         Annotated files (.svl) are read and the corresponding audio file (.wav)
@@ -349,22 +345,6 @@ class PredictionHelper_CS:
                 reconstructed_spectrograms_array = np.array(store_reconstructed_spectrograms)
                 
                 output_segments = os.path.join(self.species_folder+'/'+saved_prediction, f'Segments_{self.compression_rate}')
-                
-                if not os.path.exists(output_segments):
-                    os.makedirs(output_segments)
-                # save the spectrograms in folder
-                
-                pickle_file = os.path.join(output_segments, f"{file_name_no_extension}_raw.pkl")
-                with open(pickle_file, 'wb') as file:
-                    pickle.dump(original_spectrograms_array, file)
-                    
-                pickle_file = os.path.join(output_segments, f"{file_name_no_extension}_compressed.pkl")
-                with open(pickle_file, 'wb') as file:
-                    pickle.dump(compressed_spectrograms_array, file)
-                    
-                pickle_file = os.path.join(output_segments, f"{file_name_no_extension}_rec.pkl")
-                with open(pickle_file, 'wb') as file:
-                    pickle.dump(reconstructed_spectrograms_array, file)
                 
                 # Apply predictions to the batch after reconstruction.
                 print ('Predicting')
