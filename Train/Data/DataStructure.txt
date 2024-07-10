@@ -3,4 +3,4 @@ Out_Data/
 ├── X_reconstructed.pkl # reconstrcuted spectrograms
 ├── Y_S.pkl # labels
 
-# Data preprocessing for training can be seen here: git@github.com:milanto-hery/cs_project.git
+# Data preprocessing for training can be found here: git@github.com:milanto-hery/cs_project.git
